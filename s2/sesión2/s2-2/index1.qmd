@@ -1,0 +1,119 @@
+---
+title: "Economía del envejecimiento"
+subtitle: "Sesión 2: Salud, Sistemas de pensiones y Envejecimiento: aspectos económicos"
+author: "Dr. Jorge Enrique Bracamontes Grajedea"
+format:
+    revealjs:
+        center: true
+        title-slide-attributes: 
+          data-background-image: "images/fn.png"
+          data-background-size: cover
+          data-background-opacity: 100%
+        theme: black
+        transition: zoom
+        css:
+            - fondo.css
+---
+
+
+## **Introducción a la Economía de la Salud**
+
+### **Definición y Ámbito**
+- **Economía de la salud**: Rama de la economía que estudia cómo se asignan los recursos en el sector salud.
+- **Objetivo principal**: Maximizar la salud de la población mediante el uso eficiente de recursos limitados.
+
+---
+
+### **Importancia de la Economía de la Salud**
+- **Impacto en políticas públicas**: Informar y guiar decisiones sobre la asignación de recursos en salud.
+- **Mejora del bienestar**: Contribuye a mejorar la calidad de vida al optimizar la distribución y utilización de los recursos en salud.
+
+---
+
+## **Relación entre Economía y Salud**
+
+### **Interdependencia**
+- **Salud y Productividad**: La salud de la población es un determinante clave de la productividad laboral.
+- **Economía y Servicios de Salud**: La solidez económica influye en la capacidad de un país para ofrecer servicios de salud de calidad.
+
+### **Desafíos Principales**
+- **Escasez de recursos**: Recursos limitados en el sector salud que deben ser distribuidos eficientemente.
+- **Desigualdades en el acceso**: Diferencias significativas en el acceso a servicios de salud entre diferentes grupos poblacionales.
+
+---
+
+## **Conceptos Clave en la Economía de la Salud**
+
+### **Eficiencia**
+- **Definición**: Uso óptimo de los recursos para maximizar los resultados de salud.
+- **Tipos de eficiencia**:
+  - **Técnica**: Lograr el máximo output con un mínimo de inputs.
+  - **Asignativa**: Distribuir recursos de manera que maximicen el bienestar social.
+
+### **Equidad**
+- **Principio fundamental**: Asegurar que todos los individuos tengan acceso a los servicios 
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const synth = window.speechSynthesis;
+        let utterance;
+        let speaking = false;
+        let paused = false;
+
+        const readIncrementalContent = (element) => {
+            if (utterance && synth.speaking) {
+                synth.cancel();
+            }
+            let textToRead = element.textContent;
+
+            if (textToRead.trim() !== '') {
+                utterance = new SpeechSynthesisUtterance(textToRead);
+                synth.speak(utterance);
+            }
+        };
+
+        const readCurrentSlide = () => {
+            if (utterance && synth.speaking) {
+                synth.cancel();
+            }
+            const currentSlide = document.querySelector('.present');
+            const visibleElements = currentSlide.querySelectorAll('h1, h2, h3, h4, h5, h6, p, li:not([aria-hidden="true"]):not(.fragment)');
+            let textToRead = '';
+
+            visibleElements.forEach((el) => {
+                if (getComputedStyle(el).display !== 'none') {
+                    textToRead += el.textContent + ' ';
+                }
+            });
+
+            if (textToRead.trim() !== '') {
+                utterance = new SpeechSynthesisUtterance(textToRead);
+                synth.speak(utterance);
+            }
+        };
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key.toLowerCase() === 'q') {
+                if (paused) {
+                    synth.resume();
+                } else {
+                    synth.pause();
+                }
+                paused = !paused;
+                speaking = synth.speaking;
+            }
+        });
+
+        Reveal.on('slidechanged', (event) => {
+            readCurrentSlide();
+        });
+
+        Reveal.on('fragmentshown', (event) => {
+            readIncrementalContent(event.fragment);
+        });
+
+        // Initialize Reveal.js
+        Reveal.initialize();
+    });
+</script>

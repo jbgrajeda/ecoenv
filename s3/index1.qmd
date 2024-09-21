@@ -1,0 +1,148 @@
+---
+title: "ECONOMÍA DEL ENVEJECIMIENTO"
+subtitle: "Sesión 3: Economía política del envejecimiento y Economía generacional "
+format:
+    revealjs:
+        center: true
+        title-slide-attributes: 
+          data-background-image: "images/fn.png"
+          data-background-size: cover
+          data-background-opacity: 100%
+        theme: black
+        transition: zoom
+        css:
+            - fondo.css
+---
+
+---
+
+## ¿Qué es la Economía Generacional?
+
+- Estudio de la distribución de recursos económicos entre diferentes generaciones.
+- Analiza el impacto de las políticas económicas en distintos grupos etarios.
+
+---
+
+## Origen del Concepto
+
+- **Años 1980**: Surge con debates sobre la sostenibilidad fiscal.
+- Relación entre demografía, economía y bienestar intergeneracional.
+- Influencia de cambios demográficos en la economía a largo plazo.
+
+---
+
+## Factores Clave
+
+- **Demografía**: Diferencias en tamaño y estructura de generaciones.
+- **Política Fiscal**: Distribución del gasto público y deuda.
+- **Mercado Laboral**: Participación y desempleo entre generaciones.
+
+---
+
+## Retos de la Economía Generacional
+
+- **Sostenibilidad**: Sistemas de pensiones y deuda pública.
+- **Equidad**: Distribución de recursos entre jóvenes y mayores.
+- **Crecimiento Económico**: Impacto de la transición demográfica.
+
+---
+
+## Impacto en Políticas Públicas
+
+- **Pensiones**: Reformas para mantener la equidad intergeneracional.
+- **Salud**: Financiamiento del cuidado médico para generaciones envejecidas.
+- **Educación y Empleo**: Inversión en las generaciones jóvenes.
+
+---
+
+## Perspectivas Actuales
+
+- **Globalización**: Desafíos comunes en economías desarrolladas y emergentes.
+- **Innovación**: Tecnología y su papel en la economía intergeneracional.
+- **Política Social**: Estrategias para un envejecimiento activo y solidario.
+
+---
+
+## Conclusión
+
+- La economía generacional es crucial para entender la equidad y sostenibilidad en políticas económicas.
+- Es esencial un enfoque balanceado para asegurar el bienestar de todas las generaciones.
+
+---
+
+## Referencias
+
+- Kotlikoff, L. J., & Burns, S. (2004). *The Coming Generational Storm*.
+- Auerbach, A. J., & Kotlikoff, L. J. (1987). *Dynamic Fiscal Policy*.
+- Willetts, D. (2010). *The Pinch: How the Baby Boomers Took Their Children's Future*.
+
+
+
+
+
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const synth = window.speechSynthesis;
+        let utterance;
+        let speaking = false;
+        let paused = false;
+
+        const readIncrementalContent = (element) => {
+            if (utterance && synth.speaking) {
+                synth.cancel();
+            }
+            let textToRead = element.textContent;
+
+            if (textToRead.trim() !== '') {
+                utterance = new SpeechSynthesisUtterance(textToRead);
+                synth.speak(utterance);
+            }
+        };
+
+        const readCurrentSlide = () => {
+            if (utterance && synth.speaking) {
+                synth.cancel();
+            }
+            const currentSlide = document.querySelector('.present');
+            const visibleElements = currentSlide.querySelectorAll('h1, h2, h3, h4, h5, h6, p, li:not([aria-hidden="true"]):not(.fragment)');
+            let textToRead = '';
+
+            visibleElements.forEach((el) => {
+                if (getComputedStyle(el).display !== 'none') {
+                    textToRead += el.textContent + ' ';
+                }
+            });
+
+            if (textToRead.trim() !== '') {
+                utterance = new SpeechSynthesisUtterance(textToRead);
+                synth.speak(utterance);
+            }
+        };
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key.toLowerCase() === 'q') {
+                if (paused) {
+                    synth.resume();
+                } else {
+                    synth.pause();
+                }
+                paused = !paused;
+                speaking = synth.speaking;
+            }
+        });
+
+        Reveal.on('slidechanged', (event) => {
+            readCurrentSlide();
+        });
+
+        Reveal.on('fragmentshown', (event) => {
+            readIncrementalContent(event.fragment);
+        });
+
+        // Initialize Reveal.js
+        Reveal.initialize();
+    });
+</script>

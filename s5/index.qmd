@@ -1,0 +1,152 @@
+---
+title: "ECONOMÍA DEL ENVEJECIMIENTO"
+subtitle: "Sesión 5: Trabajo no remunerado y uso del tiempo libre"
+format:
+    revealjs:
+        center: true
+        title-slide-attributes: 
+          data-background-image: "images/fn.png"
+          data-background-size: cover
+          data-background-opacity: 100%
+        theme: black
+        transition: zoom
+        css:
+            - fondo.css
+        incremental: true 
+---
+
+## Economía Feminista
+
+- La economía feminista se centra en las desigualdades económicas basadas en el género y en cómo las contribuciones de las mujeres al trabajo, tanto remunerado como no remunerado, son sistemáticamente infravaloradas 
+- Autoras como Marilyn Waring, Julie A. Nelson y Nancy Folbre han sido fundamentales en la crítica del sistema económico tradicional, especialmente en la valoración del trabajo no remunerado.
+
+---
+
+## Principales Aportes
+
+- **Ester Boserup**: Pionera en el estudio del papel de la mujer en el desarrollo económico, particularmente en el ámbito de la transformación agrícola y la industrialización 
+- **Marilyn Waring**: Su obra *If Women Counted* (1988) resaltó cómo el trabajo no remunerado, principalmente realizado por mujeres, ha sido excluido de las cuentas nacionales
+
+---
+
+## Función Productiva de la Familia
+
+- El trabajo realizado en el hogar tiene valor económico, pero generalmente no es reconocido en las cuentas nacionales
+- **Gary Becker**, **Kelvin Lancaster** y **Richard Muth** introdujeron la idea de la función de producción de los hogares, donde los consumidores transforman bienes comprados en productos finales valiosos para el hogar
+
+---
+
+## Ejemplos de Trabajo Productivo
+
+- Preparación de alimentos, cuidado de niños, y limpieza del hogar son actividades que se realizan principalmente por mujeres y constituyen trabajo productivo no remunerado
+---
+
+## Reflexiones sobre el Trabajo No Remunerado
+
+- Las encuestas de uso del tiempo en México han sido clave para medir el trabajo no remunerado, especialmente el doméstico y de cuidado 
+- En México, desde los años 90, se han llevado a cabo encuestas para visibilizar las cargas de trabajo que, de otra manera, quedan invisibles
+
+---
+
+## Medición del Trabajo No Remunerado
+
+- La **ENUT 2009** ha sido crucial para capturar el tiempo dedicado a actividades no remuneradas, destacando las diferencias de género en las cargas de trabajo 
+- A pesar de los avances, aún persisten desafíos en la medición precisa del trabajo doméstico y de cuidado
+
+---
+
+## Importancia del  Uso del Tiempo y Desigualdades de Género
+
+- El uso del tiempo revela las desigualdades sociales y de género, siendo las mujeres las más afectadas por la sobrecarga de trabajo no remunerado
+- La clasificación de actividades entre trabajo productivo y reproductivo es fundamental para entender el papel de las mujeres en la economía
+- Las tareas domésticas y de cuidado son esenciales para el bienestar social, pero suelen no reconocerse como trabajo productivo 
+
+---
+
+## Tareas Reproductivas
+
+- Estas incluyen la preparación de alimentos, el cuidado de niños y adultos mayores, y la limpieza del hogar 
+
+---
+
+## Importancia de las Encuestas
+
+- Las encuestas de uso del tiempo permiten obtener datos que visibilizan la contribución del trabajo no remunerado al bienestar social 
+- Las discrepancias en la definición de estas actividades complican la comparabilidad de los resultados 
+
+---
+
+# Conclusiones
+
+- La economía feminista ha contribuido a visibilizar el trabajo no remunerado como una parte esencial de la economía global.
+- El reconocimiento del trabajo no remunerado es clave para lograr una sociedad más equitativa y justa 
+---
+
+
+
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const synth = window.speechSynthesis;
+        let utterance;
+        let speaking = false;
+        let paused = false;
+
+        const readIncrementalContent = (element) => {
+            if (utterance && synth.speaking) {
+                synth.cancel();
+            }
+            let textToRead = element.textContent;
+
+            if (textToRead.trim() !== '') {
+                utterance = new SpeechSynthesisUtterance(textToRead);
+                synth.speak(utterance);
+            }
+        };
+
+        const readCurrentSlide = () => {
+            if (utterance && synth.speaking) {
+                synth.cancel();
+            }
+            const currentSlide = document.querySelector('.present');
+            const visibleElements = currentSlide.querySelectorAll('h1, h2, h3, h4, h5, h6, p, li:not([aria-hidden="true"]):not(.fragment)');
+            let textToRead = '';
+
+            visibleElements.forEach((el) => {
+                if (getComputedStyle(el).display !== 'none') {
+                    textToRead += el.textContent + ' ';
+                }
+            });
+
+            if (textToRead.trim() !== '') {
+                utterance = new SpeechSynthesisUtterance(textToRead);
+                synth.speak(utterance);
+            }
+        };
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key.toLowerCase() === 'q') {
+                if (paused) {
+                    synth.resume();
+                } else {
+                    synth.pause();
+                }
+                paused = !paused;
+                speaking = synth.speaking;
+            }
+        });
+
+        Reveal.on('slidechanged', (event) => {
+            readCurrentSlide();
+        });
+
+        Reveal.on('fragmentshown', (event) => {
+            readIncrementalContent(event.fragment);
+        });
+
+        // Initialize Reveal.js
+        Reveal.initialize();
+    });
+</script>

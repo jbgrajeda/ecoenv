@@ -1,0 +1,391 @@
+---
+title: "ECONOMÍA DEL ENVEJECIMIENTO"
+subtitle: "Sesión 6: Economía del cuidado"
+format:
+    revealjs:
+        incremental: true
+        center: true
+        title-slide-attributes: 
+          data-background-image: "images/fn.png"
+          data-background-size: cover
+          data-background-opacity: 100%
+        theme: black
+        transition: zoom
+        css:
+            - fondo.css
+---
+
+## Economía del Cuidado
+
+- **Definición**: Conjunto de actividades necesarias para el bienestar de las personas.
+
++ ** Involucra cuidado de:**
+  
+:::{.r-stack}
+- Niños
+- Adultos mayores
+- Personas enfermas
+- Labores domésticas
+:::
+---
+
+## Economía del Cuidado: No Remunerada vs. Remunerada
+
+1. **Cuidado no remunerado**:
+  - Realizado mayoritariamente por mujeres.
+  - Invisibilizado en la contabilidad económica tradicional.
+  
+2. **Cuidado remunerado**:
+  - Provisto a través del mercado.
+  - Salarios bajos y condiciones precarias.
+
+---
+
+## Importancia para el Desarrollo Económico
+
+- Fundamental para la sostenibilidad de la fuerza laboral.
+- Aporta bienestar social y mejora la calidad de vida.
+- Permite la participación de mujeres en el mercado laboral.
+
+---
+
+## Valor Económico del Cuidado
+
+>>>El **valor económico del cuidado** es la cuantificación monetaria del trabajo de cuidado. Aunque fundamental para la economía, el cuidado no remunerado suele estar excluido del PIB, subestimando su contribución al desarrollo económico y social.
+
+---
+
+## Además el V.E.C. considera:
+
+1. **Cuidado no remunerado**:
+  - Actividades que sostienen el bienestar social.
+  - Realizadas mayoritariamente por mujeres en los hogares.
+  - No aparecen en las estadísticas económicas tradicionales como el PIB.
+
+---
+
+## Además el V.E.C. considera: (cont.)
+
+2. **Cuidado remunerado**:
+  - Prestado a través del mercado laboral.
+  - Incluye trabajo en guarderías, hospitales, servicios de cuidado personal, etc.
+  - Mal remunerado y en condiciones laborales precarias.
+---
+
+## Valor Económico: ¿Por qué es importante?
+
+- **Motor oculto de la economía**:
+  - El trabajo de cuidados **es esencial para la reproducción social** y la sostenibilidad de la fuerza de trabajo.
+  
+- **Contribución no medida al PIB**:
+  - Al no contabilizarse el trabajo no remunerado en las cuentas nacionales, **se subestima la riqueza generada** por el trabajo de cuidados.
+
+---
+
+## Además...
+
+- **Subsidio oculto al mercado**:
+  - Las actividades de cuidado no remunerado permiten que los miembros del hogar participen en la economía formal.
+  - **El Estado y el mercado ahorran costos**, ya que no asumen directamente estas responsabilidades.
+
+---
+
+## ¿Cómo se mide el Valor Económico del Cuidado?
+
+- **Cuentas Satélite del Cuidado**:
+  - Herramienta desarrollada para medir el valor económico del trabajo no remunerado.
+  - Permite visibilizar la **contribución de las actividades domésticas y de cuidado** al bienestar social y al crecimiento económico.
+  
+---
+
+## Indicadores clave:
+
++ **Valor monetario** del tiempo invertido en actividades de cuidado no remunerado.
++ **Aporte al Producto Interno Bruto (PIB)**.
+
+---
+
+## Ejemplo de Colombia: Valor Económico del Cuidado
+
+- **Encuestas de Uso del Tiempo (ENUT)**:
+  - En 2017, las mujeres en Colombia dedicaron un promedio de **31 horas semanales** al cuidado no remunerado.
+  - Los hombres dedicaron **menos de la mitad** de ese tiempo.
+
+---
+
+## Ejemplo de Colombia: Valor Económico del Cuidado (cont.)
+
+
+- **Cuidado no remunerado y el PIB**:
+  - En 2015, el valor estimado del trabajo de cuidados no remunerado en Colombia representó **el 20% del PIB**.
+  - Este valor es superior al de muchas industrias que sí se contabilizan en las cuentas nacionales.
+
+---
+
+## Desglose del Valor del Cuidado en Colombia
+
+- **Sectores que se beneficiarían del reconocimiento del cuidado**:
+  - **Sector salud**: El cuidado de personas enfermas y dependientes representa una parte importante del trabajo no remunerado.
+  - **Educación**: El cuidado y la enseñanza de los niños en el hogar ahorra al Estado enormes cantidades de recursos.
+
+---
+
+## Desglose del Valor del Cuidado en Colombia (cont.)
+
+- **Impacto por nivel socioeconómico**:
+  - En estratos socioeconómicos bajos, las mujeres dedican más tiempo al cuidado no remunerado.
+  - Esto **reduce sus oportunidades laborales** y perpetúa la pobreza.
+
+---
+
+- **Transferencias indirectas**:
+  - **Subsidios no reconocidos** que las mujeres aportan al Estado y a la economía.
+  - Asumen tareas que, de otra manera, requerirían inversión pública o privada.
+
+---
+
+## Impacto en el Mercado Laboral y Productividad
+
+- **Aumento de la productividad**:
+  - Las actividades de cuidado garantizan que la fuerza laboral esté en condiciones óptimas para trabajar y ser productiva.
+  - Al liberar tiempo de cuidado para las mujeres, se podría **aumentar su participación en el mercado laboral**.
+---
+
+## Impacto...
+
+
+- **Reducción de la pobreza de tiempo**:
+  - La "pobreza de tiempo" es un fenómeno que afecta especialmente a las mujeres que combinan trabajo remunerado y no remunerado, reduciendo su bienestar y calidad de vida.
+
+---
+
+## Valor del Cuidado: Comparativa Internacional
+
+- **Canadá**:
+  - Se estima que el trabajo de cuidado no remunerado representa entre el **30% y el 35% del PIB**.
+  - Las políticas públicas comienzan a centrarse en la corresponsabilidad del cuidado entre hombres y mujeres.
+
+---
+
+## Valor del Cuidado: Comparativa Internacional
+- **España**:
+  - El **trabajo doméstico y de cuidados no remunerado** equivale al **45% del PIB** si se contabilizara, superando la contribución del sector manufacturero.
+
+---
+
+## Valor del Cuidado: Comparativa Internacional
+- **América Latina**:
+  - Estudios en la región muestran que el trabajo de cuidado no remunerado representa entre el **15% y el 20% del PIB** en varios países, subrayando la urgencia de incluir estos datos en la contabilidad económica oficial.
+
+---
+
+## El Valor Económico del Cuidado en México
+
+- Si se contabilizara el trabajo de cuidado no remunerado en México, representaría  **27.6% del PIB** en 2021.
+
+:::{.r-stack}
+- **¿Qué incluye?**
+  - Cuidado de niños, adultos mayores, personas enfermas.
+  - Labores domésticas en los hogares.
+:::
+
+---
+
+## Valor Económico Estimado
+
+- **5.6 billones de pesos** mexicanos en valor económico del trabajo no remunerado.
+- Supera sectores como:
+  - Industria manufacturera
+  - Comercio
+
+---
+
+## Distribución de Género
+
+- **75% del trabajo de cuidado no remunerado** es realizado por mujeres.
+- Las mujeres son las principales responsables del cuidado y del hogar.
+
+---
+
+## Comparativa con Otros Sectores
+
+- El trabajo de cuidado no remunerado representa un **mayor porcentaje del PIB** que:
+  - Industria manufacturera
+  - Comercio
+  
+---
+
+## Importancia del Reconocimiento
+
+- **Visibilización**: 
+  - El reconocimiento del trabajo de cuidado no remunerado permite visibilizar su importancia en la economía.
+
+- **Políticas públicas**:
+  - Integrar este valor en las cuentas nacionales facilita diseñar políticas para redistribuir las tareas de cuidado.
+
+---
+
+
+## ¿Cómo Valorar y Formalizar el Trabajo de Cuidado?
+
+- **Políticas públicas**:
+  - Crear sistemas de cuidados públicos que reconozcan el valor del trabajo no remunerado.
+  - Invertir en infraestructura para el cuidado (guarderías, centros para adultos mayores).
+
+---
+
+## ¿Cómo valorar...?
+
+- **Redistribución del cuidado**:
+  - Promover una distribución más equitativa de las tareas de cuidado entre mujeres y hombres.
+  - Fomentar la corresponsabilidad entre el Estado, el mercado y los hogares.
+
+---
+
+## ¿Cómo valorar...?
+
+- **Formalización del trabajo de cuidado**:
+  - Mejorar las condiciones laborales y salariales de los trabajadores del cuidado remunerado.
+  - Reconocer el trabajo de cuidado no remunerado como parte integral de la economía.
+---
+
+## Detalles del Caso de Colombia
+
+- **Encuesta Nacional de Uso del Tiempo (ENUT)**:
+  - Dos ediciones: 2012 y 2017.
+  - Revela que las mujeres dedican el 78.4% de su tiempo disponible al cuidado no remunerado.
+
+- **Valor económico**:
+  - En 2017, el valor del cuidado no remunerado fue estimado en el 20% del PIB.
+ 
+ ---
+
+## Detalles del Caso de Colombia
+
+ 
+- **Impacto por nivel socioeconómico**:
+  - Las mujeres de estratos 1 y 2 dedican más tiempo al cuidado no remunerado que las de estratos superiores.
+
+---
+
+## Problemáticas en Colombia
+
+- **Falta de reconocimiento pleno**:
+  - A pesar de la Ley 1413, el cuidado no remunerado aún no se considera un sector productivo en las Cuentas Nacionales.
+  
+---
+
+## Problemáticas en Colombia
+
+- **Sobrecarga de trabajo**:
+  - Las mujeres trabajadoras enfrentan jornadas de 14 a 19 horas diarias, combinando empleo remunerado y cuidados no remunerados.
+
+---
+
+## Problemáticas en Colombia
+
+- **Desigualdad de género**:
+  - Los hombres dedican menos de la mitad del tiempo al cuidado no remunerado en comparación con las mujeres.
+
+---
+
+## Desafíos para Integrar la Economía del Cuidado
+
+1. **Desigualdad en la distribución del cuidado**:
+   - Falta de corresponsabilidad entre hombres y mujeres.
+  
+2. **Infraestructura insuficiente**:
+   - Escasez de guarderías y centros de cuidado para personas mayores.
+
+--
+
+## Desafíos para Integrar la Economía del Cuidado
+
+3. **Falta de inversión pública**:
+   - El Estado no ha implementado plenamente políticas de cuidado que integren a todos los sectores sociales.
+  
+4. **Condiciones laborales precarias en el cuidado remunerado**:
+   - Las trabajadoras del hogar y cuidadoras formales enfrentan bajos salarios y falta de derechos laborales.
+
+ 
+---
+
+## Conclusiones
+
+- La economía del cuidado es clave para el desarrollo económico.
+- Su visibilización y valoración permite avanzar hacia una sociedad más equitativa.
+- Necesidad de incluir el cuidado en las cuentas públicas para un crecimiento sostenible.
+
+---
+
+## Referencias
+
+- Esquivel, V. (2011). *La economía del cuidado en América Latina: Poniendo a los cuidados en el centro de la agenda*. PNUD.
+- INEGI. (2021). *Cuenta Satélite del Trabajo No Remunerado en los Hogares de México 2020*.
+- López Montaño, C. (2020). *La economía del cuidado: un nuevo sector productivo*.
+- Pérez, L. M. (Ed.). (2020). *La economía del cuidado, mujeres y desarrollo: perspectivas desde el mundo y América Latina*. Universidad del Pacífico.
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const synth = window.speechSynthesis;
+        let utterance;
+        let speaking = false;
+        let paused = false;
+
+        const readIncrementalContent = (element) => {
+            if (utterance && synth.speaking) {
+                synth.cancel();
+            }
+            let textToRead = element.textContent;
+
+            if (textToRead.trim() !== '') {
+                utterance = new SpeechSynthesisUtterance(textToRead);
+                synth.speak(utterance);
+            }
+        };
+
+        const readCurrentSlide = () => {
+            if (utterance && synth.speaking) {
+                synth.cancel();
+            }
+            const currentSlide = document.querySelector('.present');
+            const visibleElements = currentSlide.querySelectorAll('h1, h2, h3, h4, h5, h6, p, li:not([aria-hidden="true"]):not(.fragment)');
+            let textToRead = '';
+
+            visibleElements.forEach((el) => {
+                if (getComputedStyle(el).display !== 'none') {
+                    textToRead += el.textContent + ' ';
+                }
+            });
+
+            if (textToRead.trim() !== '') {
+                utterance = new SpeechSynthesisUtterance(textToRead);
+                synth.speak(utterance);
+            }
+        };
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key.toLowerCase() === 'q') {
+                if (paused) {
+                    synth.resume();
+                } else {
+                    synth.pause();
+                }
+                paused = !paused;
+                speaking = synth.speaking;
+            }
+        });
+
+        Reveal.on('slidechanged', (event) => {
+            readCurrentSlide();
+        });
+
+        Reveal.on('fragmentshown', (event) => {
+            readIncrementalContent(event.fragment);
+        });
+
+        // Initialize Reveal.js
+        Reveal.initialize();
+    });
+</script>

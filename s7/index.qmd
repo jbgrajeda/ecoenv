@@ -1,0 +1,314 @@
+---
+title: "Economía del Envejecimiento"
+subtitle: "Sesión 7: Evaluación y análisis econ+omico "
+format:
+    revealjs:
+        center: true
+        title-slide-attributes: 
+          data-background-image: "images/fn.png"
+          data-background-size: cover
+          data-background-opacity: 100%
+        theme: black
+        transition: zoom
+        incremental: true
+        css:
+          - fondo.css
+---
+
+## Análisis Económico de Políticas de Envejecimiento
+
+### Contexto General
+
+- Envejecimiento global
+- Impacto en la economía y el bienestar social
+
+---
+
+## Niveles de Análisis
+
+### Nivel Macrosocial
+- Efectos generales en la economía
+- Políticas públicas de gran escala
+
+### Nivel Microsocial
+- Impacto en individuos y hogares
+- Decisiones financieras a pequeña escala
+
+---
+
+## Técnicas de Análisis
+
+1. **Análisis Costo-Beneficio (ACB)**
+2. **Análisis de Sostenibilidad Financiera**
+3. **Análisis de Impacto Económico**
+
+---
+
+## Análisis Costo-Beneficio (ACB)
+
+### Nivel Macrosocial
+
+- Comparación de costos y beneficios a gran escala
+- Ejemplo: Sistemas de pensiones y salud pública
+
+---
+
+### Nivel Microsocial
+- Costos y beneficios para individuos y familias
+- Ejemplo: Decisiones de cuidado formal o informal
+
+---
+
+## Análisis de Sostenibilidad Financiera
+
+### Nivel Macrosocial
+- Sostenibilidad de sistemas de pensiones y salud
+- Proyecciones demográficas y económicas
+
+---
+
+### Nivel Microsocial
+- Capacidad de los hogares para sostener el gasto en la vejez
+- Ejemplo: Ahorro personal y gastos médicos futuros
+
+---
+
+## Análisis de Impacto Económico
+
+### Nivel Macrosocial
+- Efectos en el crecimiento económico y el empleo
+- Impacto en sectores como salud y servicios
+
+---
+
+### Nivel Microsocial
+- Impacto en ingresos y bienestar familiar
+- Ejemplo: Subsidios para cuidado a largo plazo
+
+
+---
+
+## Conclusiones Generales
+
+- El envejecimiento requiere políticas eficientes
+- Uso de análisis económico para asegurar sostenibilidad y equidad
+
+---
+
+:::{.perst}
+## Las técnicas \n a mayor detalle
+:::
+---
+
+## Análisis Costo-Beneficio (ACB)
+
+:::{.perst2}
+¿En qué fijarse al hacer un **ACB**?
+:::
+
+- Comparar los costos de una política con sus beneficios.
+- ¿Los beneficios superan los costos?
+
+---
+
+## ACB a Nivel Macrosocial
+
+- Evaluación de políticas **nacionales** de envejecimiento.
+- **Costos**: Gasto público en pensiones y salud.
+- **Beneficios**: Mejor calidad de vida y reducción de pobreza.
+
+---
+
+### Ejemplo Macrosocial
+
+- **Política de pensiones**: 
+  - Costos de implementación (gasto en pensiones)
+  - Beneficios: Menor pobreza en adultos mayores.
+  
+---
+
+## ACB a Nivel Microsocial
+
+- Evaluación del impacto en **individuos y familias**.
+- **Costos**: Tiempo e ingresos perdidos en cuidados informales.
+- **Beneficios**: Reducción de estrés y apoyo económico.
+
+---
+
+### Ejemplo Microsocial
+
+- **Cuidado informal vs institucional**:
+  - Costos: Tiempo invertido por la familia.
+  - Beneficios: Menos estrés y apoyo económico.
+
+---
+
+## Análisis de Sostenibilidad Financiera
+
+### ¿Qué es la sostenibilidad financiera?
+
+- Evalúa si una política es **viable** a largo plazo.
+- Proyecciones de gasto e ingresos futuros.
+
+---
+
+## Sostenibilidad Financiera a Nivel Macrosocial
+
+- **Sistemas de pensiones y salud**.
+- Proyección de ingresos fiscales y gasto en pensiones.
+- **Pregunta clave**: ¿Es sostenible con una población envejecida?
+
+---
+
+### Ejemplo Macrosocial
+
+- Sistema de pensiones de reparto:
+  - ¿Pueden los trabajadores activos sostener a los jubilados?
+  - Proyección de costos frente a ingresos futuros.
+
+---
+
+## Sostenibilidad Financiera a Nivel Microsocial
+
+- ¿Puede un hogar sostener sus gastos durante la vejez?
+- **Factores**: Ahorro personal, gastos médicos, cuidado a largo plazo.
+
+---
+
+### Ejemplo Microsocial
+
+- **Ahorro para la jubilación**:
+  - Proyección de gastos en salud.
+  - Evaluar si el ahorro cubre los costos futuros.
+
+---
+
+## Análisis de Impacto Económico
+
+### ¿Qué es el Análisis de Impacto Económico?
+
+- Mide cómo una política afecta la **economía general**.
+- Crecimiento económico, empleo, e inversión.
+
+---
+
+## Impacto Económico a Nivel Macrosocial
+
+- Efectos sobre el **empleo** y la **productividad**.
+- **Impacto en sectores clave** como salud y servicios sociales.
+
+---
+
+### Ejemplo Macrosocial
+
+- **Política de envejecimiento activo**:
+  - Incentivos para trabajar más años.
+  - Efectos en la productividad y reducción de la carga fiscal.
+
+---
+
+## Impacto Económico a Nivel Microsocial
+
+- Impacto directo en los **ingresos y el bienestar familiar**.
+- **Subsidios** y apoyo económico para personas mayores.
+
+---
+
+### Ejemplo Microsocial
+
+- **Subsidios para el cuidado a largo plazo**:
+  - Menor gasto familiar en atención privada.
+  - Mejora en el bienestar económico de las familias.
+
+---
+
+## Recomendaciones de Lectura
+
+### Autores Latinoamericanos y Mexicanos
+
+- **Barrientos, A.** (2009). *Políticas sociales para el envejecimiento en América Latina*. Un análisis desde la sostenibilidad financiera.
+  
+- **Valenzuela, A.** (2018). *El envejecimiento y la economía del cuidado en México*. Enfocado en los impactos microsociales del envejecimiento.
+
+- **Lloyd-Sherlock, P.** (2004). *Las políticas de envejecimiento en América Latina y el Caribe*. Un enfoque regional sobre los desafíos macroeconómicos del envejecimiento.
+
+- **Bensusán, G.** (2017). *Seguridad social y pensiones en México: Retos de sostenibilidad financiera*. Análisis a nivel macroeconómico.
+
+---
+
+## Conclusiones
+
+- Envejecimiento y su impacto en la sostenibilidad económica.
+- Importancia de analizar a nivel micro y macrosocial.
+- Herramientas clave: ACB, sostenibilidad y análisis de impacto.
+
+
+
+
+
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const synth = window.speechSynthesis;
+        let utterance;
+        let speaking = false;
+        let paused = false;
+
+        const readIncrementalContent = (element) => {
+            if (utterance && synth.speaking) {
+                synth.cancel();
+            }
+            let textToRead = element.textContent;
+
+            if (textToRead.trim() !== '') {
+                utterance = new SpeechSynthesisUtterance(textToRead);
+                synth.speak(utterance);
+            }
+        };
+
+        const readCurrentSlide = () => {
+            if (utterance && synth.speaking) {
+                synth.cancel();
+            }
+            const currentSlide = document.querySelector('.present');
+            const visibleElements = currentSlide.querySelectorAll('h1, h2, h3, h4, h5, h6, p, li:not([aria-hidden="true"]):not(.fragment)');
+            let textToRead = '';
+
+            visibleElements.forEach((el) => {
+                if (getComputedStyle(el).display !== 'none') {
+                    textToRead += el.textContent + ' ';
+                }
+            });
+
+            if (textToRead.trim() !== '') {
+                utterance = new SpeechSynthesisUtterance(textToRead);
+                synth.speak(utterance);
+            }
+        };
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key.toLowerCase() === 'q') {
+                if (paused) {
+                    synth.resume();
+                } else {
+                    synth.pause();
+                }
+                paused = !paused;
+                speaking = synth.speaking;
+            }
+        });
+
+        Reveal.on('slidechanged', (event) => {
+            readCurrentSlide();
+        });
+
+        Reveal.on('fragmentshown', (event) => {
+            readIncrementalContent(event.fragment);
+        });
+
+        // Initialize Reveal.js
+        Reveal.initialize();
+    });
+</script>

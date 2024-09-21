@@ -1,0 +1,268 @@
+---
+title: "ECONOMÍA DEL ENVEJECIMIENTO"
+subtitle: "Sesión 4: Economía familiar y su planificación"
+format:
+    revealjs:
+        center: true
+        title-slide-attributes: 
+          data-background-image: "images/fn.png"
+          data-background-size: cover
+          data-background-opacity: 100%
+        theme: black
+        transition: zoom
+        css:
+            - fondo.css
+---
+
+## Economía Familiar
+
+![](images/fam1.png){fig-align="center"}
+
+---
+
+## ¿Qué es la Economía Familiar?
+
+- **Manejo de recursos económicos** de una familia.
+- Incluye ingresos, gastos, ahorros, inversiones y deudas.
+- Decisiones económicas para satisfacer necesidades y deseos.
+
+---
+
+## Elementos de la Economía Familiar
+
+1. **Ingresos**
+   - Salarios, rentas, inversiones, pensiones.
+   
+   ![](images/ingfam.webp){fig-align="center"}
+---
+
+## 
+
+::::{.columns}
+:::{.column width=40%}
+![](images/gastosfam.webp)
+:::
+
+:::{.column width=40%}
+
+### 2. **Gastos**
+   - Vivienda
+   - Alimentación
+   - Educación
+   - Salud
+   - Ocio
+:::
+::::
+---
+
+![](images/ahorof.png)
+
+3. **Ahorro**
+   - Reserva de dinero para futuros gastos o emergencias.
+---
+  
+::::{.columns}
+:::{.column width=50%}
+
+4. **Inversión**
+   - Colocar ahorros en instrumentos financieros o propiedades.
+:::
+
+:::{.column width=40%}
+![](images/invf.webp) 
+:::
+::::
+
+---
+
+5. **Deuda**
+   - Dinero que se debe para financiar necesidades o deseos.
+
+   ![](images/deudaf.png)
+
+---
+
+## Planificación de la Economía Familiar
+
+### ¿Por qué es Importante?
+
+> - Organiza y gestiona las finanzas para alcanzar metas.
+> - Proporciona seguridad y estabilidad económica.
+
+## Pasos para la Planificación Financiera
+
+:::{.incremental}
+1. **Definir Metas Financieras**
+   - Objetivos claros y específicos.
+
+2. **Presupuesto Familiar**
+   - Registro de ingresos y gastos.
+   - Control del gasto.
+:::
+
+## Pasos para la Planificación Financiera ](cont.)
+
+:::{.incremental}
+3. **Ahorro e Inversión**
+   - Destinar parte del presupuesto al ahorro.
+   - Invertir para generar ingresos futuros.
+
+4. **Manejo de Deudas**
+   - Mantener las deudas bajo control.
+:::
+
+## Pasos para la Planificación Financiera (cont.)
+
+:::{.incremental}
+5. **Protección Financiera**
+   - Seguros para cubrir riesgos imprevistos.
+
+6. **Revisión y Ajuste**
+   - Adaptar el plan a cambios en las circunstancias.
+:::
+
+---
+
+## Definir Metas Financieras
+
+- **Ejemplos**:
+  - Comprar una casa.
+  - Ahorrar para la educación.
+  - Asegurar la jubilación.
+
+  ![](images/meta.png)
+
+---
+
+## Presupuesto Familiar
+
+> - Registro detallado de ingresos y gastos.
+> - Asegurar que los gastos no superen los ingresos.
+
+
+---
+
+## Ahorro e Inversión
+
+> - **Ahorro**: Reserva para emergencias y metas.
+> - **Inversión**: Generar ingresos adicionales.
+
+
+---
+
+## Manejo de Deudas
+
+ - **Control de deudas**:
+  - Evitar altos niveles de endeudamiento.
+  - Pagos manejables.
+
+
+---
+
+## Protección Financiera
+
+- **Seguros**:
+  - Proteger contra riesgos financieros imprevistos.
+
+
+---
+
+## Revisión y Ajuste
+
+- Revisión periódica del plan.
+- Ajustes según cambios en las circunstancias.
+
+
+---
+
+## Conclusión
+
+::::{.columns}
+:::{.column width=45%}
+- La economía familiar es clave para el bienestar.
+- La planificación ayuda a tomar decisiones informadas y a prepararse para el futuro.
+:::
+
+:::{.column width=45%}
+
+![](images/bienestar.webp)
+:::
+::::
+
+---
+
+## Actividad Práctica
+
+1. Con base en los materiales provistos y tu propia experiencia, elabora un proceso de intervención en el que tienes que enseñarle a una familia (o grupo de familias) a planificar su economía familiar.
+2. Elabora un diagnóstico simulado para contextualizar el caso de intervención y
+3. Elabora una exposición de diapositivas donde dibulgues la experiencia, destacando el reto de la elaboración del proceso interventor, los problemas a que se enfrentaron las familias y cómo se resolvió dicha inconsistencia.
+
+---
+
+
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const synth = window.speechSynthesis;
+        let utterance;
+        let speaking = false;
+        let paused = false;
+
+        const readIncrementalContent = (element) => {
+            if (utterance && synth.speaking) {
+                synth.cancel();
+            }
+            let textToRead = element.textContent;
+
+            if (textToRead.trim() !== '') {
+                utterance = new SpeechSynthesisUtterance(textToRead);
+                synth.speak(utterance);
+            }
+        };
+
+        const readCurrentSlide = () => {
+            if (utterance && synth.speaking) {
+                synth.cancel();
+            }
+            const currentSlide = document.querySelector('.present');
+            const visibleElements = currentSlide.querySelectorAll('h1, h2, h3, h4, h5, h6, p, li:not([aria-hidden="true"]):not(.fragment)');
+            let textToRead = '';
+
+            visibleElements.forEach((el) => {
+                if (getComputedStyle(el).display !== 'none') {
+                    textToRead += el.textContent + ' ';
+                }
+            });
+
+            if (textToRead.trim() !== '') {
+                utterance = new SpeechSynthesisUtterance(textToRead);
+                synth.speak(utterance);
+            }
+        };
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key.toLowerCase() === 'q') {
+                if (paused) {
+                    synth.resume();
+                } else {
+                    synth.pause();
+                }
+                paused = !paused;
+                speaking = synth.speaking;
+            }
+        });
+
+        Reveal.on('slidechanged', (event) => {
+            readCurrentSlide();
+        });
+
+        Reveal.on('fragmentshown', (event) => {
+            readIncrementalContent(event.fragment);
+        });
+
+        // Initialize Reveal.js
+        Reveal.initialize();
+    });
+</script>
