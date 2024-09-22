@@ -1,6 +1,6 @@
 ---
-title: "Sociodemografía del envejecimiento"
-subtitle: "Sesión 6: "
+title: "Economía del Envejecimiento"
+subtitle: "Sesión 1: Principios de economía "
 format:
     revealjs:
         center: true
