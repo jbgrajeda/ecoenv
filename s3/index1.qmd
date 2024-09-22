@@ -14,67 +14,121 @@ format:
             - fondo.css
 ---
 
+
+## ¿QUÉ ES LA ECONOMÍA POLÍTICA
+
+
+- Estudio de la producción, distribución y consumo de bienes y servicios.
+- Interrelación entre economía, política y sociedad.
+
 ---
 
-## ¿Qué es la Economía Generacional?
+## Origen de la Economía Política
 
-- Estudio de la distribución de recursos económicos entre diferentes generaciones.
-- Analiza el impacto de las políticas económicas en distintos grupos etarios.
+- **Siglo XVII y XVIII**: Surge en Europa.
+- Autores clave: Adam Smith, David Ricardo, Karl Marx.
+- Comienza como estudio de la riqueza de las naciones.
+
+---
+
+## Adam Smith
+
+- **La Riqueza de las Naciones (1776)**
+- Introduce la idea de la mano invisible y el libre mercado.
+- Considerado el padre de la economía política.
+
+---
+
+## Evolución de la Disciplina
+
+- **Siglo XIX**: División entre Economía Clásica y Economía Marxista.
+- **Siglo XX**: Desarrollo de nuevas corrientes (Keynesianismo, Neoliberalismo).
+
+---
+
+## Relevancia Actual
+
+- Entender la relación entre políticas económicas y resultados sociales.
+- Analizar el impacto de la globalización y políticas públicas.
+
+---
+
+## Economía Política en el Siglo XXI
+
+- Cambio climático y políticas económicas.
+- Desigualdad económica y distribución de recursos.
+- Nuevas tecnologías y su regulación económica.
+
+---
+
+## En síntesis
+
+- La Economía Política sigue siendo clave para entender la interacción entre economía, política y sociedad.
+- Herramienta vital para enfrentar desafíos contemporáneos.
+
+---
+
+## Ahora bien, ¿qué es la economía política del envejecimiento?
+
+## ¿Qué es la Economía Política del Envejecimiento?
+
+- Estudio de cómo las políticas económicas afectan a la población envejecida.
+- Relación entre envejecimiento demográfico, economía y políticas públicas.
 
 ---
 
 ## Origen del Concepto
 
-- **Años 1980**: Surge con debates sobre la sostenibilidad fiscal.
-- Relación entre demografía, economía y bienestar intergeneracional.
-- Influencia de cambios demográficos en la economía a largo plazo.
+- **Siglo XX**: Aumento de la esperanza de vida.
+- Creciente interés en la sostenibilidad de sistemas de pensiones y salud.
+- Influencia de la economía política en decisiones sobre envejecimiento.
 
 ---
 
 ## Factores Clave
 
-- **Demografía**: Diferencias en tamaño y estructura de generaciones.
-- **Política Fiscal**: Distribución del gasto público y deuda.
-- **Mercado Laboral**: Participación y desempleo entre generaciones.
+- **Demografía**: Envejecimiento poblacional.
+- **Economía**: Presiones sobre sistemas de seguridad social.
+- **Política**: Reformas en pensiones, atención médica y mercado laboral.
 
 ---
 
-## Retos de la Economía Generacional
+## Impacto Económico del Envejecimiento
 
-- **Sostenibilidad**: Sistemas de pensiones y deuda pública.
-- **Equidad**: Distribución de recursos entre jóvenes y mayores.
-- **Crecimiento Económico**: Impacto de la transición demográfica.
-
----
-
-## Impacto en Políticas Públicas
-
-- **Pensiones**: Reformas para mantener la equidad intergeneracional.
-- **Salud**: Financiamiento del cuidado médico para generaciones envejecidas.
-- **Educación y Empleo**: Inversión en las generaciones jóvenes.
+- Aumento en gasto público en salud y pensiones.
+- Reducción en la fuerza laboral.
+- Cambios en el consumo y ahorro.
 
 ---
 
-## Perspectivas Actuales
+## Desafíos Políticos
 
-- **Globalización**: Desafíos comunes en economías desarrolladas y emergentes.
-- **Innovación**: Tecnología y su papel en la economía intergeneracional.
-- **Política Social**: Estrategias para un envejecimiento activo y solidario.
+- **Sostenibilidad**: Sistemas de pensiones y atención médica.
+- **Equidad**: Acceso a recursos para personas mayores.
+- **Integración**: Inclusión de personas mayores en el mercado laboral.
+
+---
+
+## Relevancia Actual
+
+- **Globalización**: Diferencias en políticas de envejecimiento entre países.
+- **Tecnología**: Innovaciones en salud y su impacto económico.
+- **Política Social**: Diseño de políticas inclusivas para el envejecimiento.
 
 ---
 
 ## Conclusión
 
-- La economía generacional es crucial para entender la equidad y sostenibilidad en políticas económicas.
-- Es esencial un enfoque balanceado para asegurar el bienestar de todas las generaciones.
+- La economía política del envejecimiento es crucial para enfrentar los desafíos de una población en envejecimiento.
+- Es necesario un enfoque integrado que considere economía, política y bienestar social.
 
 ---
 
 ## Referencias
 
-- Kotlikoff, L. J., & Burns, S. (2004). *The Coming Generational Storm*.
-- Auerbach, A. J., & Kotlikoff, L. J. (1987). *Dynamic Fiscal Policy*.
-- Willetts, D. (2010). *The Pinch: How the Baby Boomers Took Their Children's Future*.
+- Esping-Andersen, G. (1990). *Los tres mundos del Estado de bienestar*.
+- Barr, N. (2004). *Economics of the Welfare State*.
+- Walker, A. (2006). *Understanding Quality of Life in Old Age*.
 
 
 
