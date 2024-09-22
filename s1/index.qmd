@@ -1,3 +1,19 @@
+---
+title: "Sociodemografía del envejecimiento"
+subtitle: "Sesión 6: "
+format:
+    revealjs:
+        center: true
+        title-slide-attributes: 
+          data-background-image: "images/fn.png"
+          data-background-size: cover
+          data-background-opacity: 100%
+        theme: black
+        transition: zoom
+        css:
+          - fondo.css
+---
+
 
 # Conceptos Generales de la Economía
 Una introducción a los fundamentos económicos
@@ -80,9 +96,10 @@ Una introducción a los fundamentos económicos
 
 ---
 
-## Aspectos econ+omicos del envejecimiento
+## Aspectos econ+omicos del envejecimiento 
 
 ---
+
 ## Sistemas de Pensiones y Seguridad Social
 
 - Presión financiera sobre sistemas de pensiones y seguridad social debido al aumento de jubilados.
@@ -136,3 +153,68 @@ Una introducción a los fundamentos económicos
 - Ralentización del crecimiento económico debido a la reducción de la fuerza laboral y el aumento de gastos en salud y pensiones.
 - Importancia de políticas de envejecimiento activo para mitigar el impacto económico.
 - Necesidad de integrar tecnologías que mejoren la eficiencia y reduzcan los costos en el cuidado de personas mayores.
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const synth = window.speechSynthesis;
+        let utterance;
+        let speaking = false;
+        let paused = false;
+
+        const readIncrementalContent = (element) => {
+            if (utterance && synth.speaking) {
+                synth.cancel();
+            }
+            let textToRead = element.textContent;
+
+            if (textToRead.trim() !== '') {
+                utterance = new SpeechSynthesisUtterance(textToRead);
+                synth.speak(utterance);
+            }
+        };
+
+        const readCurrentSlide = () => {
+            if (utterance && synth.speaking) {
+                synth.cancel();
+            }
+            const currentSlide = document.querySelector('.present');
+            const visibleElements = currentSlide.querySelectorAll('h1, h2, h3, h4, h5, h6, p, li:not([aria-hidden="true"]):not(.fragment)');
+            let textToRead = '';
+
+            visibleElements.forEach((el) => {
+                if (getComputedStyle(el).display !== 'none') {
+                    textToRead += el.textContent + ' ';
+                }
+            });
+
+            if (textToRead.trim() !== '') {
+                utterance = new SpeechSynthesisUtterance(textToRead);
+                synth.speak(utterance);
+            }
+        };
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key.toLowerCase() === 'q') {
+                if (paused) {
+                    synth.resume();
+                } else {
+                    synth.pause();
+                }
+                paused = !paused;
+                speaking = synth.speaking;
+            }
+        });
+
+        Reveal.on('slidechanged', (event) => {
+            readCurrentSlide();
+        });
+
+        Reveal.on('fragmentshown', (event) => {
+            readIncrementalContent(event.fragment);
+        });
+
+        // Initialize Reveal.js
+        Reveal.initialize();
+    });
+</script>
