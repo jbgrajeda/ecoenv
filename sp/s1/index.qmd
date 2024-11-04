@@ -1,0 +1,114 @@
+---
+format:
+    revealjs:
+        incremental: true
+        center: true
+        title-slide-attributes: 
+          data-background-image: "images/fn.png"
+          data-background-size: cover
+          data-background-opacity: 100%
+        theme: black
+        transition: zoom
+        css:
+            - fondo.css
+---
+
+## {background-image="images/fn.png"}
+
+---
+
+## Objetivo General
+
+- Generar un espacio de análisis sobre los procesos teórico metodológicos y de formación profesional que implican la intervención social, desde miradas disciplinares, multidisciplinares e interdisciplinarias tanto con personas mayores, como con aquellas que viven el proceso de envejecimiento
+---
+
+## Aspectos a Retomar para la Discusión
+
+:::{.incremental}
+1. **Estructura y contenido de los planes de estudio**
+2. **Diferencias entre instituciones públicas y privadas**
+3. **Orientación de la formación en Gerontología Social**
+:::
+
+## Aspectos a Retomar para la Discusión (cont.) 
+:::{.incremental}
+4. **Comparación interdisciplinaria**
+5. **Perspectivas teóricas y metodologías de enseñanza**
+6. **Distribución geográfica y contexto demográfico**
+7. **Impacto de políticas educativas y cambios en el contexto sanitario**
+:::
+---
+
+## 1. Estructura y Contenido de los Planes de Estudio
+
+- Análisis de créditos obligatorios y optativos en Gerontología Social.
+- Comparación con otras áreas de intervención en Trabajo Social:
+- **Pregunta:** ¿Cómo se distribuyen los créditos en gerontología en diferentes universidades mexicanas?
+
+---
+
+## 2. Diferencias entre Instituciones Públicas y Privadas
+
+- Comparación entre universidades públicas y privadas:
+   - Mayor carga horaria en universidades públicas.
+   - Distribución de créditos y accesibilidad de la formación.
+- **Pregunta:** ¿Las diferencias se replican en otras IES en TS?
+
+---
+
+## 3. Orientación de la Formación en Gerontología Social
+
+- Enfoque predominante: dependencia y discapacidad.
+- **Comparativa:** Enfoques entre instituciones:
+   - ¿Se centra en autonomía y calidad de vida?
+   - ¿Existen variaciones culturales en el enfoque?
+
+---
+
+## 4. Comparación Interdisciplinaria
+
+- Análisis de la formación en gerontología en:
+   - Trabajo Social
+   - Enfermería
+   - Psicología
+- **Expansión:** Incluir Medicina, Fisioterapia y Educación Social para un análisis más amplio.
+- **Pregunta:** ¿Cómo influye la interdisciplinariedad en los planes de estudio?
+
+---
+
+## 5. Perspectivas Teóricas y Metodologías de Enseñanza
+
+- Métodos de enseñanza: teóricos vs. prácticos.
+- Uso de tecnologías innovadoras en la formación.
+- **Pregunta:** ¿Qué metodologías son más efectivas para preparar a los futuros profesionales en gerontología?
+
+---
+
+## 6. Distribución Geográfica y Contexto Demográfico
+
+- Análisis de la correlación entre la carga formativa en gerontología y el envejecimiento poblacional regional.
+- **Caso España:** Diferencias según Comunidad Autónoma.
+- **Pregunta:** ¿Los planes de estudio reflejan las necesidades locales de envejecimiento?
+
+---
+
+## 7. Impacto de Políticas Educativas y Cambios Sanitarios
+
+- Influencia del Plan Bolonia en la formación en Gerontología Social en Europa.
+- **Comparativa Internacional:** Evaluar si otras políticas educativas han impactado la formación en gerontología.
+- **Pregunta:** ¿Cómo influyen las políticas en la adaptación de los planes de estudio a las demandas sociales?
+
+---
+
+## Estrategia para el producto de la sesión
+
+- Elaborar una reflexión acerca de algunos de los puntos discutidos y subirlo al drive proporcionado.
+- Fecha límite de entrega: un día antes de la sesión siguiente.
+
+---
+:::{.r-fit-text}
+¡¡Gracias!!
+:::
+
+
+
